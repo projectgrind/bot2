@@ -18,7 +18,7 @@ time = str(timestamp)
 scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name("key.json", scope)
 client = gspread.authorize(creds)
-sheet = client.open('record').sheet1
+sheet = client.open('record')
 python_sheet = sheet.get_all_records()
 pp = pprint.PrettyPrinter()
 
