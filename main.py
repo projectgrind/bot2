@@ -25,7 +25,7 @@ pp = pprint.PrettyPrinter()
 python_sheet=str(python_sheet )
 
 # Instantiate a Bot instance
-bot = lightbulb.BotApp(token="MTAzNTE4MDIwMTgyODcwMDE2MA.GMYtgm.OhKA4o6TYzPRorfz4pK2EAKec-BOQDL47REgOs", prefix="$")
+bot = lightbulb.BotApp(token="MTAzNTE4MDIwMTgyODcwMDE2MA.G90HVC.Z_T4HbbPQTNtp7uWF0QAEloGx9whFg0dhOvVOg", prefix="$")
 
 # Register the command to the bot
 @bot.command
